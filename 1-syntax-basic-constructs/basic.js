@@ -3,11 +3,7 @@ function solicitaEdad() {
 }
 
 function calculaEdad(edad) {
-    if (edad >= 18) {
-        return "you're an adult!";
-    } else {
-        return "you aren't an adult!";
-    }
+    return (edad >= 18) ? "you're an adult!" : "you aren't an adult!";
 }
 
 alert(calculaEdad(solicitaEdad()));
