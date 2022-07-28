@@ -1,6 +1,5 @@
 function solicitaEdad() {
-    let edad = prompt("¿Cuántos años tienes?");
-    return edad;
+    return prompt("¿Cuántos años tienes?");
 }
 
 function calculaEdad(edad) {
