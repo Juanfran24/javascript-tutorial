@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="./form.js" defer></script>
+</head>
+
+<body>
+    <form action=''>
+        <label for="firstName">
+            First Name:
+            <input type="text" name="firstName" id="firstName" placeholder="Ex: Juan Esteban">
+        </label>
+        <br>
+        <br>
+        <label for="lastName">
+            Last Name:
+            <input type="text" name="lastName" id="lastName" placeholder="Ex: Franco Estacio">
+        </label>
+        <br>
+        <br>
+        <label for="email">
+            Email:
+            <input type="text" name="email" id="email" placeholder="Ex: juan@gmail.com">
+        </label>
+        <br>
+        <br>
+        <label for="telephone">
+            Telephone:
+            <input type="number" name="telephone" id="telephone" placeholder="Ex: 2903804">
+        </label>
+        <br>
+        <br>
+        <label for="birth">
+            Birth Date:
+            <input type="date" name="birth" id="birth" placeholder="Ex: 01/01/2000">
+        </label>
+        <br>
+        <br>
+        <label for="gender">
+            Gender:
+            <select name="gender" id="gender">
+                <option value="" hidden>Seleccione...</option>
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+                <option value="O">Otro</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Status</legend>
+            <label for="status_1">
+                <input type="radio" name="status" id="status_1" value="1">
+                Estrato 1
+            </label>
+            <label for="status_2">
+                <input type="radio" name="status" id="status_2" value="2">
+                Estrato 2
+            </label>
+            <label for="status_3">
+                <input type="radio" name="status" id="status_3" value="3">
+                Estrato 3
+            </label>
+            <label for="status_4">
+                <input type="radio" name="status" id="status_4" value="4">
+                Estrato 4
+            </label>
+            <label for="status_5">
+                <input type="radio" name="status" id="status_5" value="5">
+                Estrato 5
+            </label>
+            <label for="status_6">
+                <input type="radio" name="status" id="status_6" value="6">
+                Estrato 6
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Hobbies</legend>
+            <label for="leer">
+                <input type="checkbox" name="hobby" id="leer">
+                Leer
+            </label>
+            <label for="bailar">
+                <input type="checkbox" name="hobby" id="bailar">
+                Bailar
+            </label>
+            <label for="escribir">
+                <input type="checkbox" name="hobby" id="escribir">
+                Escribir
+            </label>
+            <label for="pintar">
+                <input type="checkbox" name="hobby" id="pintar">
+                Pintar
+            </label>
+        </fieldset>
+        <br>
+        <br>
+        <label for="imagen">
+            Imagen:
+            <input type="file" name="imagen" id="imagen">
+        </label>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
