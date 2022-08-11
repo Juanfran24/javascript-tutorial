@@ -17,8 +17,7 @@ const showCommitier = async () => {
       `).join('')}
     </ul>
   `;
-  const body = document.querySelector('body');
-  body.innerHTML = html;
+  document.body.innerHTML = html;
 }
 
 showCommitier();
