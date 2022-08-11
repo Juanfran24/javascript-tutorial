@@ -22,7 +22,7 @@ function validateForm(event) {
 
     if(!nameReg.test(firstName.value)) {
         alert('First name is not valid');
-        return false;
+        return;
     }
 
     if(!nameReg.test(lastName.value)) {
