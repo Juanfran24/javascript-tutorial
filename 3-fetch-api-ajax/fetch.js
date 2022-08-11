@@ -11,7 +11,7 @@ const showCommitier = async () => {
     <ul>
       ${arrCommitiers.map(author => `
         <li>
-          <h2>${author.author!=null && author.author.login}</h2>
+          <h2>${author?.author?.login}</h2>
           <img src="${author.author!=null && author.author.avatar_url}" alt="${author.author!=null && author.author.login}">
         </li>
       `).join('')}
