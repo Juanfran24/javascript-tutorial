@@ -3,11 +3,11 @@ const form = document.querySelector('form');
 //validate form data
 function validateForm(event) {
     event.preventDefault();
-    const firstName = document.querySelector('input[id="firstName"]');
-    const lastName = document.querySelector('input[id="lastName"]');
-    const email = document.querySelector('input[id="email"]');
-    const telephone = document.querySelector('input[id="telephone"]');
-    const hobbies = document.querySelectorAll('input[type="checkbox"]');
+    const firstName = form.querySelector('input[id="firstName"]');
+    const lastName = form.querySelector('input[id="lastName"]');
+    const email = form.querySelector('input[id="email"]');
+    const telephone = form.querySelector('input[id="telephone"]');
+    const hobbies = form.querySelectorAll('input[type="checkbox"]');
     let isHobbySelected = false;
     let hobbiesSelected = [];
 
